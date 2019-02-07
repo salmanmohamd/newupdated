@@ -1,0 +1,158 @@
+*
+{   
+	margin:0;
+	padding:0;
+}
+
+body,html{
+		background-image:url(bg1.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 100%;
+	}
+
+.login
+        {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 400px;
+            height: 300px;
+            padding: 60px 40px;
+            box-sizing: border-box;
+            background: rgba(0,0,0,0.2);
+            color: #fff;
+			border-radius: 10px;
+			text-align: center;
+			margin-top: 2px;
+        }
+
+.login h1{
+			 font-size: 25px;
+			 font-family: monospace;
+			 text-align: center;
+
+}
+
+.login p {
+	display: inline;
+
+	
+}
+
+input{
+	padding: 6px 12px;
+    opacity: 0.5;
+    border-radius: 8px;
+}
+
+.align1{
+	padding: 27px 0px;
+}
+.field1{
+			padding-left: 60px;
+
+} 
+
+.field2{
+			padding-left: 37px;
+
+}
+
+
+.avatar {
+          	position: absolute;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+            top: calc(-80px/2);
+            left: calc(50% - 40px);   
+        }    
+
+.submit{
+        	background-color: #4CAF50;
+ 			border: none;
+  			color: white;
+  			text-decoration: none;
+  			display: inline-block;
+ 			font-size: 16px;
+ 			margin: 42px 11px;
+ 			border-radius: 4px;
+ 			transition: 1s;
+			padding: 10px 20px;
+			cursor: -webkit-grab; cursor: grab;
+			
+			
+}
+      		
+
+.submit:hover{
+		background-color: #126320;
+		transition: 1s;
+}
+
+h2{
+			font-size: 15px;
+			 font-family: monospace;
+			 text-align: center;
+			 padding-top: 0px;
+}
+
+.fa {
+	padding: 7px;
+	font-size: 30px;
+	width: 35px;
+
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 40%;
+	-webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  color: white;
+  }
+  
+  @keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+.fa:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+  
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+
+  .fa-instagram {
+	background: #c73c12;
+	color: white;
+  }
+
+  .social{
+
+  }
